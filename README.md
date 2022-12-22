@@ -71,7 +71,7 @@
         # jika nim bukan interger tipe datanya maka membangkitkan error 
         if not type(nim) is int:
             # menangani bahwa nim wajib integer
-            raise TypeError('Mohon maaf ni yee sebelumnya ... nim kudu intefep ')
+            raise TypeError('Mohon maaf ni yee sebelumnya ... nim kudu integer ')
         else:
             print(nim)
             
